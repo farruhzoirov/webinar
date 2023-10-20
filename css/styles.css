@@ -902,8 +902,8 @@ form span {
     .page-main__webtime {
         width: 100%;
         max-width: 260px;
-        justify-content: center;
-        flex-grow: 1;
+        margin-right: auto;
+        margin-left: auto;
         padding: 10px 20px;
         margin-bottom: 15px;
     }

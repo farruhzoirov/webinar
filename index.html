@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webinar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!--Page main starts-->
+
+<main class="page-main">
+    <div class="container">
+        <div class="page-main__inner">
+            <div class="page-main__left">
+                <div class="page-main__header">
+                    <div class="page-main__webtime">
+                        <img src="img/calender.svg" width="24" height="24" alt="">
+                        <span class="page-main__day">20-21 oktyabr</span>
+                        <span class="page-main__line"></span>
+                        <span class="page-main__clock">20:30</span>
+                    </div>
+                    <div class="page-main__headtext">
+                        <strong>Zarina <span>Ismoilova</span></strong>
+                        <p>
+                            BEPUL ikki kunlik onlayn webinar
+                        </p>
+                    </div>
+                </div>
+
+                <h1 class="page-main__title">
+                    90 kunda rus tilida noldan <br> muloqatgacha qadamlar
+                </h1>
+
+                <div class="page-main__confirmation">
+                    <h2>Webinarda siz</h2>
+                    <ul class="page-main__list">
+                        <li class="page-main__item">
+                            <img src="img/confirmation-icon.svg" width="40" height="40" alt="">
+                            <p>
+                                Rus tili samarali o'rganish xaritasini
+                            </p>
+                        </li>
+                        <li class="page-main__item">
+                            <img src="img/confirmation-icon.svg" width="40" height="40" alt="">
+                            <p>
+                                Rus tilida to'g'ri muloqat qilish va "аксент"siz <br> gapirish ketma ketliklarini
+                            </p>
+                        </li>
+                        <li class="page-main__item">
+                            <img src="img/confirmation-icon.svg" width="40" height="40" alt="">
+                            <p>
+                                Gramatikani esdan chiqmaydigan qilib o'rganish <br> va rus tilida qisqa fursatda
+                                so'zlarni eslab
+                                <br> qolishning samarali yo'llarini bilib olasiz
+                            </p>
+                        </li>
+                    </ul>
+
+                    <button class="page-main__reception" type="button"><span>ro'yxatdan o'tish</span></button>
+                </div>
+            </div>
+            <div class="page-main__right">
+                <img src="img/teacher-img.png" width="722" height="900" alt=""
+                     srcset="img/teacher-img.png 1x, img/teacher-img@2x.png 2x">
+                <div class="page-main__info">
+                    <strong>Zarina Ismoilovna</strong>
+                    <p>9 yillik rus tili o'qituvchisi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--Page modal-->
+<div class="modal-container js-modal-container">
+    <div class="modal-container__inner">
+        <div class="modal-container__content">
+            <button class="modal-container__closer js-modal-container__closer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                    <path stroke="#000" stroke-linecap="round" stroke-width="1.5" d="M7 17 17 7M7 7l10 10"/>
+                </svg>
+            </button>
+            <h2>Ro'yxatdan <span class="modal-container__span">o'tish</span></h2>
+            <p>
+                Pastdagi formani to'ldirishingiz bilan yopiq <br> kanalga qo'shilasiz.
+            </p>
+            <form action="https://echo.htmlacademy.ru" method="post">
+                <span>Ism</span>
+                <div class="form-inner">
+                    <input class="form-input" type="text" placeholder="Ismingizni kiriting" aria-label="name"
+                           name="name" required>
+                </div>
+
+                <span>Telefon raqami</span>
+                <div class="form-inner">
+                    <input class="form-input" type="tel" aria-label="tel-number" name="tel-number" required>
+                </div>
+                <button class="form-button" type="submit"><span>ro'yxatdan o'tish</span></button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

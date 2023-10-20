@@ -1015,6 +1015,10 @@ form span {
 
 
 @media  only screen and (max-width: 430px) {
+    body {
+        background-image: none;
+    }
+
     .page-main__item p {
         font-size: 13px;
         white-space: nowrap;
@@ -1024,6 +1028,10 @@ form span {
 
 
 @media  only screen and (max-width: 420px) {
+    body {
+        background-image: none;
+    }
+
     .page-main__item p {
         font-size: 12px;
         white-space: nowrap;
@@ -1033,6 +1041,9 @@ form span {
 
 
 @media  only screen and (max-width: 386px) {
+    body {
+        background-image: none;
+    }
     .page-main__title {
         white-space: normal;
     }
@@ -1045,6 +1056,10 @@ form span {
 }
 
 @media only screen and (max-width: 540px) {
+    body {
+        background-image: none;
+    }
+
     .modal-container__content h2 {
         font-size: 24px;
     }
@@ -1059,19 +1074,6 @@ form span {
 
 
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-       body {
-           background-image: url("../img/main@2x.png");
-       }
-
-
-}
 
 
 
